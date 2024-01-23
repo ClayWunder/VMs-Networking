@@ -42,17 +42,29 @@ Create Resource Group in desired subscription for project in Azure.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![Screenshot 2024-01-23 at 2 54 50 PM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/40740923-8618-4a5e-9438-f8c37112e3d9)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Select Virtual Machines from Azure Service Menu
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![Screenshot 2024-01-23 at 2 58 02 PM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/0bcea8a8-ea4e-4f16-a618-9f8be0f7b65e)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create new virtual machine running Microsoft Windows 10 in project resource group and region.
+</p>
+<br />
+
+![Screenshot 2024-01-23 at 2 58 02 PM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/bb2a94da-0724-4e83-9ca5-de9361055a59)
+
+</p>
+<p>
+Create new virtual machine running Microsoft Windows 10 in project resource group and region.
 </p>
 <br />
