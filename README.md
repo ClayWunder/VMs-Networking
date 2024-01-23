@@ -13,13 +13,13 @@ This tutorial outlines the creation and networking of different types of virtual
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- 
+- Wireshark
 - 
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
-- 
+- Linux (Ubuntu)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
