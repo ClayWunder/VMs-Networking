@@ -23,10 +23,11 @@ This tutorial outlines the creation and networking of different types of virtual
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1 - Create Resources
+- Step 2 - Observe ICMP Traffic
+- Step 3 - Observe SSH Traffic
+- Step 4 - Observe DHCP Traffic
+- Step 5 - Observe RDP Traffic
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -57,14 +58,31 @@ Select Virtual Machines from Azure Service Menu
 
 </p>
 <p>
-Create new virtual machine running Microsoft Windows 10 in project resource group and region.
+Create new virtual machine running Microsoft Windows 10 in project resource group and region. VM will create new Virtual Network (VNet) and Subnet.
 </p>
 <br />
 
-![Screenshot 2024-01-23 at 2 58 02 PM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/bb2a94da-0724-4e83-9ca5-de9361055a59)
+![Screenshot 2024-01-23 at 3 07 16 PM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/77bc3435-ab6a-4980-81f5-3eed3417dd59)
 
 </p>
 <p>
-Create new virtual machine running Microsoft Windows 10 in project resource group and region.
+VM1 created and appears in Virtual Machine tab of Azure.
+</p>
+<br />
+
+![Screenshot 2024-01-23 at 3 16 56 PM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/7ba4ba04-9c1c-45b7-a03b-7258b48253b0)
+
+</p>
+<p>
+Create 2nd Virtual Machine running Linux (Ubuntu) on same Vnet as VM running Windows.
+</p>
+<br />
+
+![Screenshot 2024-01-23 at 3 19 49 PM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/f9160176-e2fc-40ed-9f4c-010d533cc4b5)
+
+
+</p>
+<p>
+Both Virtual Machines now appear in Azure.
 </p>
 <br />
