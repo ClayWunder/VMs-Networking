@@ -1,24 +1,25 @@
 <p align="center">
   
-![image](https://github.com/ClayWunder/VPN/assets/157168474/382f961e-641a-41e9-a992-3ed1e9411599)
+![image](https://github.com/ClayWunder/VMs-Networking/assets/157168474/4724c3fd-1e82-484f-b4ef-065153d7903b)
+
 
 </p>
 
 <h1>Deploying and Neworking Virtual Machines (Azure)</h1>
-This tutorial outlines the creation and networking of virtual machines (VM's) in Microsoft Azure.<br />
 
+This tutorial outlines the creation and networking of different types of virtual machines (VM's) in Microsoft Azure.<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Active Directory Domain Services
-- PowerShell
+- 
+- 
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server 2022
 - Windows 10 (21H2)
+- 
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
