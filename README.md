@@ -80,9 +80,32 @@ Create 2nd Virtual Machine running Linux (Ubuntu) on same Vnet as VM running Win
 
 ![Screenshot 2024-01-23 at 3 19 49 PM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/f9160176-e2fc-40ed-9f4c-010d533cc4b5)
 
-
 </p>
 <p>
 Both Virtual Machines now appear in Azure.
+</p>
+<br />
+
+<img width="854" alt="Screenshot 2024-01-23 at 3 26 24 PM" src="https://github.com/ClayWunder/VMs-Networking/assets/157168474/c18e52c4-d6e6-4705-9bdc-e5c1dd9e74f7">
+
+</p>
+<p>
+Use Microsoft Remote Desktop application to connect to Windows 10 virtual machine using it's public IP address and username/password chosen during VM creation.
+</p>
+<br />
+
+<img width="1484" alt="Screenshot 2024-01-23 at 3 28 41 PM" src="https://github.com/ClayWunder/VMs-Networking/assets/157168474/ed8c83fa-ab2d-4b83-9c3d-bb73223121d0">
+
+</p>
+<p>
+Download and install Wireshark on Windows 10 virtual machine.
+</p>
+<br />
+
+<img width="754" alt="Screenshot 2024-01-23 at 3 33 03 PM" src="https://github.com/ClayWunder/VMs-Networking/assets/157168474/e305d5b9-fa20-4d00-aa6f-ec5a45122eca">
+
+</p>
+<p>
+Run Wireshark and add filter to view ICMP traffic only.
 </p>
 <br />
