@@ -1,8 +1,5 @@
 <p align="center">
-  
-![image](https://github.com/ClayWunder/VMs-Networking/assets/157168474/4724c3fd-1e82-484f-b4ef-065153d7903b)
-
-
+<img src=https://github.com/ClayWunder/VMs-Networking/assets/157168474/e59374c4-1e55-4be1-a63d-2a45b9169e76)
 </p>
 
 <h1>Deploying and Inspecting Network Traffic Between Azure Virtual Machines</h1>
