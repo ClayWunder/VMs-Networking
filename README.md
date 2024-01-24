@@ -2,6 +2,10 @@
 <img src=https://github.com/ClayWunder/VMs-Networking/assets/157168474/e59374c4-1e55-4be1-a63d-2a45b9169e76)
 </p>
 
+<p align="center">
+<img src=https://github.com/ClayWunder/VMs-Networking/assets/157168474/5e67fd8e-17c6-433c-b371-126ab9a8ba66)
+</p>
+
 <h1>Deploying and Inspecting Network Traffic Between Azure Virtual Machines</h1>
 
 This tutorial outlines the creation of different types of virtual machines (VM's) in Microsoft Azure and inspecting network traffic between them.<br />
