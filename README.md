@@ -28,10 +28,11 @@ This tutorial outlines the creation of different types of virtual machines (VM's
 
 - Create Resources
 - Step 1 - Observe ICMP Traffic
-- Step 2 - Observe SSH Traffic
-- Step 3 - Observe DHCP Traffic
-- Step 4 - Observe DNS Traffic
-- Step 5 - Observe RDP Traffic
+- Step 2 - Modify Network Security Group
+- Step 3 - Observe SSH Traffic
+- Step 4 - Observe DHCP Traffic
+- Step 5 - Observe DNS Traffic
+- Step 6 - Observe RDP Traffic
 - Cleanup
 
 <h2>Deployment and Configuration Steps</h2>
@@ -93,7 +94,6 @@ Both Virtual Machines now appear in Azure.
 </p>
 <br />
 
-<h1>Part 1 - Observe ICMP Traffic (Internet Control Message Protocol - no port used)</h1>
 
 <img width="854" alt="Screenshot 2024-01-23 at 3 26 24 PM" src="https://github.com/ClayWunder/VMs-Networking/assets/157168474/c18e52c4-d6e6-4705-9bdc-e5c1dd9e74f7">
 
@@ -110,6 +110,8 @@ Use Microsoft Remote Desktop application to connect to Windows 10 virtual machin
 Download and install Wireshark on Windows 10 virtual machine.
 </p>
 <br />
+
+<h1>Part 1 - Observe ICMP Traffic (Internet Control Message Protocol - no port used)</h1>
 
 <img width="754" alt="Screenshot 2024-01-23 at 3 33 03 PM" src="https://github.com/ClayWunder/VMs-Networking/assets/157168474/e305d5b9-fa20-4d00-aa6f-ec5a45122eca">
 
@@ -145,7 +147,9 @@ Observe ICMP traffic betweeen VM1 (10.0.0.4) and Microsoft Public IP (23.200.61.
 </p>
 <br />
 
-![Screenshot 2024-01-24 at 11 01 22 AM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/397d2fce-b78b-42b0-8c07-92aea9c6cb74)
+<h1>Part 2 - Modify Network Security Group</h1>
+
+![Screenshot 2024-01-24 at 11 01 22 AM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/6f0f11b9-85a2-466e-90c3-c92399c6af63)
 
 </p>
 <p>
@@ -191,7 +195,7 @@ Stop ping activity by pressing Ctrl + C in PowerShell.
 </p>
 <br />
 
-<h1>Part 2 - Observe SSH Traffic (Secure Shell - TC Port 22)</h1>
+<h1>Part 3 - Observe SSH Traffic (Secure Shell - TC Port 22)</h1>
 
 ![Screenshot 2024-01-24 at 11 16 04 AM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/11e7ce91-54ba-425e-811b-48e437417995)
 
@@ -210,7 +214,7 @@ Exit SSH connection by pressing typing "exit" in PowerShell and pressing Enter.
 </p>
 <br />
 
-<h1>Part 3 - Observe DHCP Traffic (Dynamic Host Configuration Protocol - UDP Port 67 & 68)</h1>
+<h1>Part 4 - Observe DHCP Traffic (Dynamic Host Configuration Protocol - UDP Port 67 & 68)</h1>
 
 ![Screenshot 2024-01-24 at 11 23 28 AM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/3ae384b5-94f1-4794-ac64-cf69320aa5a5)
 
@@ -228,7 +232,7 @@ From VM1, use command ipconfig / renew in PowerShell to attempt to issue VM a ne
 </p>
 <br />
 
-<h1>Part 4 - Observe DNS Traffic (Domain Name System - TCP/UDP Port 53)</h1>
+<h1>Part 5 - Observe DNS Traffic (Domain Name System - TCP/UDP Port 53)</h1>
 
 ![Screenshot 2024-01-24 at 11 50 04 AM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/c3069c56-41ed-4cdf-a548-ee0ffad6bcd0)
 
@@ -246,7 +250,7 @@ From VM1, use commmand nslookup microsoft.com to see associated public IP addres
 </p>
 <br />
 
-<h1>Part 5 - Observe RDP Traffic (Remore Desktop Protocol - TCP Port 3389)</h1>
+<h1>Part 6 - Observe RDP Traffic (Remore Desktop Protocol - TCP Port 3389)</h1>
 
 ![Screenshot 2024-01-24 at 11 36 02 AM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/8692aa2f-0657-4427-902e-d95b168959df)
 
