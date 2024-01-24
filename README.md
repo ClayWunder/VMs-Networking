@@ -35,7 +35,9 @@ This tutorial outlines the creation and networking of different types of virtual
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-  
+
+<h1>Create Resources</h1>  
+
 ![image](https://github.com/ClayWunder/VMs-Networking/assets/157168474/34ff4cae-2483-494f-89f2-855789a64caf)
 
 >
