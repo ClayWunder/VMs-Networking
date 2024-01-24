@@ -5,7 +5,7 @@
 
 </p>
 
-<h1>Deploying and Inspecting Traffic Between Azure Virtual Machines</h1>
+<h1>Deploying and Inspecting Network Traffic Between Azure Virtual Machines</h1>
 
 This tutorial outlines the creation of different types of virtual machines (VM's) in Microsoft Azure and inspecting network traffic between them.<br />
 
