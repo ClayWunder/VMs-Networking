@@ -5,17 +5,18 @@
 
 </p>
 
-<h1>Deploying Virtual Machines and Networking (Azure)</h1>
+<h1>Deploying and Inspecting Traffic Between Azure Virtual Machines</h1>
 
-This tutorial outlines the creation and networking of different types of virtual machines (VM's) in Microsoft Azure.<br />
+This tutorial outlines the creation of different types of virtual machines (VM's) in Microsoft Azure and inspecting network traffic between them.<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Microsoft Azure (Network Security Groups)
 - Remote Desktop
-- Wireshark
-- Windows Powershell 
+- Wireshark (Protocol Analyzer)
+- Windows Powershell
+- Various Network Protocols (ICMP, SSH, DHCP, DNS, RDP)
 
 <h2>Operating Systems Used </h2>
 
