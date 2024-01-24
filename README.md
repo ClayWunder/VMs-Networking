@@ -12,9 +12,10 @@ This tutorial outlines the creation and networking of different types of virtual
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Network Security Groups)
 - Remote Desktop
 - Wireshark
-- 
+- Windows Powershell 
 
 <h2>Operating Systems Used </h2>
 
@@ -86,6 +87,8 @@ Both Virtual Machines now appear in Azure.
 </p>
 <br />
 
+<h1>Part 2 - Observe ICMP Traffic (no port used)</h1>
+
 <img width="854" alt="Screenshot 2024-01-23 at 3 26 24 PM" src="https://github.com/ClayWunder/VMs-Networking/assets/157168474/c18e52c4-d6e6-4705-9bdc-e5c1dd9e74f7">
 
 </p>
@@ -99,6 +102,87 @@ Use Microsoft Remote Desktop application to connect to Windows 10 virtual machin
 </p>
 <p>
 Download and install Wireshark on Windows 10 virtual machine.
+</p>
+<br />
+
+<img width="754" alt="Screenshot 2024-01-23 at 3 33 03 PM" src="https://github.com/ClayWunder/VMs-Networking/assets/157168474/e305d5b9-fa20-4d00-aa6f-ec5a45122eca">
+
+</p>
+<p>
+Run Wireshark and add filter to view ICMP traffic only.
+</p>
+<br />
+
+![Screenshot 2024-01-24 at 10 45 58 AM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/10ed090e-9eaa-4292-bde0-5b26420926a2)
+
+</p>
+<p>
+Copy the private IP address of VM2 running Ubuntu.
+</p>
+<br />
+
+![Screenshot 2024-01-24 at 10 48 51 AM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/211a801c-27ff-4f36-aafb-ba6cd1faca73)
+
+</p>
+<p>
+Return to VM1 and use Windows Powershell (or Terminal) to ping VM2's private IP address.
+Observe ICMP traffic between VM1 and VM2 in Wireshark.
+</p>
+<br />
+
+<img width="754" alt="Screenshot 2024-01-23 at 3 33 03 PM" src="https://github.com/ClayWunder/VMs-Networking/assets/157168474/e305d5b9-fa20-4d00-aa6f-ec5a45122eca">
+
+</p>
+<p>
+Run Wireshark and add filter to view ICMP traffic only.
+</p>
+<br />
+
+<img width="754" alt="Screenshot 2024-01-23 at 3 33 03 PM" src="https://github.com/ClayWunder/VMs-Networking/assets/157168474/e305d5b9-fa20-4d00-aa6f-ec5a45122eca">
+
+</p>
+<p>
+Run Wireshark and add filter to view ICMP traffic only.
+</p>
+<br />
+
+<img width="754" alt="Screenshot 2024-01-23 at 3 33 03 PM" src="https://github.com/ClayWunder/VMs-Networking/assets/157168474/e305d5b9-fa20-4d00-aa6f-ec5a45122eca">
+
+</p>
+<p>
+Run Wireshark and add filter to view ICMP traffic only.
+</p>
+<br />
+
+<img width="754" alt="Screenshot 2024-01-23 at 3 33 03 PM" src="https://github.com/ClayWunder/VMs-Networking/assets/157168474/e305d5b9-fa20-4d00-aa6f-ec5a45122eca">
+
+</p>
+<p>
+Run Wireshark and add filter to view ICMP traffic only.
+</p>
+<br />
+
+<img width="754" alt="Screenshot 2024-01-23 at 3 33 03 PM" src="https://github.com/ClayWunder/VMs-Networking/assets/157168474/e305d5b9-fa20-4d00-aa6f-ec5a45122eca">
+
+</p>
+<p>
+Run Wireshark and add filter to view ICMP traffic only.
+</p>
+<br />
+
+<img width="754" alt="Screenshot 2024-01-23 at 3 33 03 PM" src="https://github.com/ClayWunder/VMs-Networking/assets/157168474/e305d5b9-fa20-4d00-aa6f-ec5a45122eca">
+
+</p>
+<p>
+Run Wireshark and add filter to view ICMP traffic only.
+</p>
+<br />
+
+<img width="754" alt="Screenshot 2024-01-23 at 3 33 03 PM" src="https://github.com/ClayWunder/VMs-Networking/assets/157168474/e305d5b9-fa20-4d00-aa6f-ec5a45122eca">
+
+</p>
+<p>
+Run Wireshark and add filter to view ICMP traffic only.
 </p>
 <br />
 
