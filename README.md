@@ -216,25 +216,17 @@ Return to Wireshark and filter to view DHCP traffic only.
 </p>
 <br />
 
-![Screenshot 2024-01-24 at 11 16 04 AM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/11e7ce91-54ba-425e-811b-48e437417995)
-
-</p>
-<p>
-From VM1, use command ipconfig / renew in PowerShell to attempt to issue VM a new IP address.
-</p>
-<br />
-
 ![Screenshot 2024-01-24 at 11 25 02 AM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/a858995e-f8e6-4e73-a55a-9795bd68bef1)
 
 </p>
 <p>
-Observe DHCP traffic in Wireshark.
+From VM1, use command ipconfig / renew in PowerShell to attempt to issue VM a new IP address. Observe DHCP traffic in Wireshark.
 </p>
 <br />
 
 <h1>Part 4 - Observe DNS Traffic (Domain Name System - TCP/UDP Port 53)</h1>
 
-![Screenshot 2024-01-24 at 11 16 04 AM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/11e7ce91-54ba-425e-811b-48e437417995)
+![Screenshot 2024-01-24 at 11 50 04 AM](https://github.com/ClayWunder/VMs-Networking/assets/157168474/c3069c56-41ed-4cdf-a548-ee0ffad6bcd0)
 
 </p>
 <p>
