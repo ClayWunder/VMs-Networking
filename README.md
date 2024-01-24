@@ -5,7 +5,7 @@
 
 </p>
 
-<h1>Deploying and Neworking Virtual Machines (Azure)</h1>
+<h1>Deploying Virtual Machines and Networking (Azure)</h1>
 
 This tutorial outlines the creation and networking of different types of virtual machines (VM's) in Microsoft Azure.<br />
 
